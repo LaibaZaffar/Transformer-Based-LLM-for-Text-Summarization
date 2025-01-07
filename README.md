@@ -3,7 +3,6 @@ This repository provides a comprehensive implementation of a text summarizer usi
 
 ## Features
 - **Abstractive Summarization**: Generates a concise summary by rephrasing the input text while retaining its meaning.
-- **Pre-trained Models**: Utilizes state-of-the-art transformer-based models such as BERT, T5, or GPT.
 - **Customizable Parameters**: Allows configuration of summarization parameters such as maximum summary length.
 - **Easy-to-Use Interface**: Offers a step-by-step implementation in Jupyter Notebook for ease of understanding and replication.
 
@@ -21,13 +20,13 @@ To run this project, you need the following:
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/LaibaZaffar/Transformer-Based-LLM-for-Text-Summarization.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd <repository_directory>
+   cd Transformer-Based-LLM-for-Text-Summarization
    ```
-3. Install the required dependencies/libraries
+3. Install the required dependencies/libraries as mentioned in first cell of the notebook.
 
 ## Notes
 - Large Language Models (LLMs) require significant memory for both training and testing. It is recommended to run the project in Google Colab or a system with sufficient resources.
